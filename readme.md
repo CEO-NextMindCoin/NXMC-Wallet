@@ -45,7 +45,7 @@ Please note: by creating `~/androidsdk/licenses/android-sdk-license` file you ar
 #### Android build
 Download code from Github
 ```
-git clone https://github.com/trustee-wallet/trusteeWallet.git
+git clone https://github.com/CEO-NextMindCoin/NXMC-Wallet.git
 ```
 
 Build preparation
@@ -79,8 +79,8 @@ On the next step we decoding both APK files by `apktool`. File downloaded from G
 Finally on the last step using simple `diff` command we checking both folders for differences.  
 
 ```bash 
-git clone https://github.com/trustee-wallet/trusteeWallet.git
-cd ./trusteeWallet
+git clone https://github.com/CEO-NextMindCoin/NXMC-Wallet.git
+cd ./NextMindCoinWallet
 ./docker/verify_android_build.sh
 ```
 
@@ -170,11 +170,11 @@ root@37c6000f7ee9:/trustee# diff 'fromBuild/smali_classes3/okhttp3/internal/cach
 
 As we can see there are no significant differences between APK file downloaded from Google Play and file built from source code. So we can say there are no hidden functions that may harm users.   
 
-**Please note:** This verification method can be used only for the latest TrusteeWallet release. Because most of the third part packages that we use are also in active development and if we try to build some of the previous releases with latest packages versions there will be significant differences in APK files.  
+**Please note:** This verification method can be used only for the latest NextMindCoinWallet release. Because most of the third part packages that we use are also in active development and if we try to build some of the previous releases with latest packages versions there will be significant differences in APK files.  
 
 
 ### Contacts
-For proposals and bug reports feel free to open and issue [HERE](https://github.com/trustee-wallet/trusteeWallet/issues)
+For proposals and bug reports feel free to open and issue.
 
-If you have any questions please contact us by email <contact@trustee.deals> or join our community in [Telegram](https://t.me/trustee_wallet)
+If you have any questions please contact us by email <contact@nextmindcoin.com> or join our community in [Telegram] https://t.me/NextMindCoin_NXMC
 
