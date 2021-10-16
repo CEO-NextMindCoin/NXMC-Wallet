@@ -1,6 +1,6 @@
-## Trustee Wallet
+## NextMindCoinWallet
 
-[Trustee Wallet](https://trustee.deals/) is the secure and simple way to create and manage crypto accounts. Quick and safe buy and sell bitcoin directly with your Visa or MasterCard
+[NextMindCoin Wallet](https://nextmindcoin.com/) is the secure and simple way to create and manage crypto accounts. Quick and safe buy and sell bitcoin directly with your Visa or MasterCard
 
 
 ### Building for Android 
@@ -50,7 +50,7 @@ git clone https://github.com/trustee-wallet/trusteeWallet.git
 
 Build preparation
 ```
-cd ./trusteeWallet
+cd ./NextMindCoinWallet
 npm install
 npx jetifier
 rm -f shim.js
